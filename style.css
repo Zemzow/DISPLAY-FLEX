@@ -1,0 +1,119 @@
+.caixona {
+    display: flex; /*Define o display como flexível*/
+    justify-content: space-around; /*Espaçamento do conteúdo*/
+    align-items: center; /*Alinha os itens para o centro*/
+    height: 300px; /*Tamanho da caixa*/
+    border: 5px solid black; /*Tamanho e cor da borda*/
+}
+
+.lindinha {
+    width: 100px; /*Comprimento da caixa*/
+    height: 100px; /*Tamanho da caixa*/
+    background-color: #b8e100; /*Cor do fundi=o da caixa*/
+    margin: 10px; /*Margem de espaçamento*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    border: 5px solid rgb(86, 10, 179);
+    color: azure;
+    font-weight: bold;
+}
+
+.docinho {
+    width: 100px;
+    height: 100px;
+    background-color: #1bc42c;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    border: 5px solid rgb(115, 17, 137);
+    color: azure;
+    font-weight: bold;
+}
+
+.florzinha {
+    width: 100px;
+    height: 100px;
+    background-color: #1978a0;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    border: 5px solid rgb(139, 5, 5);
+    color: azure;
+    font-weight: bold; /*Define a fonte como negrito*/
+}
+
+.caixona2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    border: 5px solid rgb(255, 0, 0);
+    float: left;
+}
+
+.caixona3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    border: 5px solid rgb(105, 25, 137);
+    float: right;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: darkgrey;
+}
+
+input[type="text"],
+input[type="Email"],
+textarea{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"]{
+    background-color: #86e09a;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(78, 189, 96);
+    color: white;
+}
+
+form{
+    width: 500px;
+    margin: 0 auto;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
